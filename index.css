@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   transition: 0.5s;
-  background: #ffffff;
+  background: #283593;
   cursor: default;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -518,4 +518,17 @@ h3 {
 
 .resume .func .interests-items div span {
   display: block;
+}
+@media only screen and (max-width: 600px) {
+	.resume{
+		display:block;
+	}
+	.base{
+		width:100% !important;
+		float:left;
+	}
+	.resume .base .profile::after{
+		height: 50px;
+		bottom: -25px;
+	}
 }
